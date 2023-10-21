@@ -1,0 +1,57 @@
+:root{
+    --background-main: #1179EC;
+    --background-main2: #FFF;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+#root{
+    background-image: linear-gradient(to bottom left, var(--background-main), var(--background-main2));
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: -2;
+}
+#topNav{
+    display: flex;
+    width: 85vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3vh;
+    height: 5vh;
+}
+#topLogo{
+    width: 6vw;
+    height: auto;
+}
+#mainOptions{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.navCenterButton{
+    width: 15%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#registerButton{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.5% 1.5%;
+    border-radius: 3vmin;
+}

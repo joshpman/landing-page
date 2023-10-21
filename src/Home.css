@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+:root{
+    --bar-color-1: #1179EC;
+    --bar-color-2: #F6D200;
+}
+*{
+padding: 0;
+margin: 0;
+color: white;
+}
+
+#cityPicture{
+    width: 5%;
+    height: auto;
+}
+#mainHome{
+    padding-top: 10vh;
+    width: 85vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#topSegment{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+#topMainContent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+}
+#topMainContentLeft{
+    grid-area: 1 / 1 / 2 / 2; 
+}
+#barWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+#bar1, #bar2{
+    width: 2.5vw;
+    border-radius: .5vmin;
+}
+#bar1{
+    background-color: var(--bar-color-1);
+    height: 10vh;
+    margin-right: .5vw;
+}
+#bar2{
+    height: 6vh;
+    background-color: var(--bar-color-2);
+}
+#sideSegment{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100%;
+    margin-right: 10%;
+}
+#satisifedClients{
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 5vw;
+    left: 10.5%;
+}
+#clientsPercent{
+    position: absolute;
+    font-size: 2rem;
+    top: 24.5vh;
+    left: 8vw;
+}
+#topMainContent{
+    margin-top: 3vh;
+}
+#topMainContentLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%; 
+    width: 40vw;
+}
+#mainHeader{
+    letter-spacing: .2rem;
+    font-size: 4.8rem;
+    font-weight: lighter;
+    line-height: 4.5rem;
+    font-family: Ultra;
+}
+#mainInfo{
+    font-size: 1.15rem;
+    width: 90%;
+}
+#findHome{
+    background-color: var(--bar-color-1);
+    border: none;
+    width: 30%;
+    height: 12.5%;
+    border-radius: 4vmin;
+}
+#topMainContentRight{
+    padding-left: 5vw;
+}
+#yellowSemiCircle{
+    width: 7.5vw;
+    background-color: var(--bar-color-2);
+    height: 7.5vw;
+    border-radius: 7.5vw 0 0 0;
+    position: absolute;
+    z-index: 0;
+    transform: translate(-100%, 0%);
+}
+#buildingPicture{
+    width: 30vw;
+    border-top-right-radius: 7vmin;
+    border-bottom-left-radius: 7vmin;
+;
+}
