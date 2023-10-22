@@ -57,3 +57,6 @@ body{
     padding: 1.5% 1.5%;
     border-radius: 3vmin;
 }
+button:hover{
+    cursor: pointer;
+}
