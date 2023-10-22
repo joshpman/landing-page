@@ -25,7 +25,7 @@ const Home = ()=>{
                         </div>
                         <img src="../building.jpg" alt="building picture" id="buildingPicture"></img>
                         <div id="greenCircleWrapper">
-                            <div id="greenSemiCircle">30%</div>
+                            <h1 id="greenSemiCircle">-30%</h1>
                         </div>
                     </div>
                 </div>
