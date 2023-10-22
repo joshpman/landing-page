@@ -154,6 +154,7 @@ color: white;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 5vh;
+    z-index: 10;
 }
 #cityPicture{
     width: 30vw;
